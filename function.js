@@ -20,3 +20,13 @@ function updateUser(){
 function getUserId(){
     return updateService.getUserId(Id)
 }
+let num = 10;
+num++;
+console.log(++num);
+
+// reverse strings 
+function reverseStrings(str){
+    return str
+
+}
+console.log(reverseStrings("Lion"));
